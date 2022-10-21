@@ -14,6 +14,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        /*let manager = ManagerPlaces.shared()
+        let pl = Place(name: "Test Place", description: "More Info", image_in: nil)
+        let pl2 = PlaceTourist(name:"Test Place222", description: "Cool City", discount_tourist:"220",image_in: nil)
+        manager.append(_value:pl2)
+        
+        print("Element 0: ",manager.places[0].name)
+        print("Element 1: ",manager.places[1].name)*/
         return true
     }
 
